@@ -1,19 +1,25 @@
 body{
     background-color: rgb(36, 36, 36);
-    padding: 150px;
-    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
-h1{
+h1,p,h4,li,a{
+    color: rgb(232, 231, 239);
     text-align: center;
+}
+h4{
+    font-size: 23px;
+}
+li,p{
+    font-size: 20px;
 }
 #image{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-h1, h4, li, p, a{
-    color: rgb(232, 231, 239);
-    text-align: center;
+ul,ol{
+    list-style:none;
 }
 a:link{
     color: rgb(232,231,239);
@@ -22,27 +28,16 @@ a:link{
 a:visited{
     color: rgb(232,231,239);
 }
-li{
-    font-size: 125%;
+a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 8px;
+    font-size: 18px;
 }
-h4{
-    font-size: 150%;
-}
-li, p{
-    font-size: 130%;
-}
-footer{
-    text-align: center;
-    padding: 50px;
-    font-size: 125%;
-    
-}
-ol li{
-    padding: 5px;
-    margin-left: 35px;
+
+.center_notes,.center_instructions,.center_ingredients{
     list-style-position: inside;
+    text-align: center;
 }
-ul li{
-    margin: 5px;
-    list-style: none;
-}
+
