@@ -20,6 +20,8 @@ li,p{
 }
 ul,ol{
     list-style:none;
+    padding-left: 0%;
+
 }
 a:link{
     color: rgb(232,231,239);
@@ -41,3 +43,7 @@ a{
     text-align: center;
 }
 
+/* *{
+    line-height: 1.5;
+    outline: 1px dotted red;
+} */

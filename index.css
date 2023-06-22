@@ -35,4 +35,12 @@ ul.list {
     display: inline-block;
     text-align: relative;
     list-style: none;
+    padding-left: 0%;
+
   }
+
+
+/* *{
+    line-height: 1.5;
+    outline: 1px dotted red;
+} */
