@@ -1,5 +1,7 @@
 body{
     background-color: rgb(36, 36, 36);
+    padding: 150px;
+    padding-top: 50px;
 }
 h1{
     color: rgb(232, 231, 239);
@@ -19,4 +21,6 @@ a:visited{
 }
 li{
     font-size: 125%;
+    list-style: none;
 }
+h1, 
