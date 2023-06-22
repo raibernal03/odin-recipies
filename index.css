@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(36, 36, 36);
+}
+h1{
+    color: rgb(232, 231, 239);
+}
+h4{
+    font-size: 125%;
+}
+.main{
+    color: rgb(232,231,239);
+}
+a:link{
+    color: rgb(232,231,239);
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(232,231,239);
+}
+li{
+    font-size: 125%;
+}
